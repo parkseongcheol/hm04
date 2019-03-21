@@ -6,6 +6,6 @@ html5 class
   - img 는 태그이름을 나타낸다
   - 블록 태그 사례를 
   - <strong>,<a>,<img> 등은 인라인 태그 사례를 나타낸다
- - wk03 upload
-   -flame을 만드는 방법
-   -사운드와 미디어파일 
+- wk03 upload
+  - flame 만드는법
+  - 미디어와 사운드 넣는법
