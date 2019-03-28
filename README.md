@@ -13,4 +13,4 @@ html5 class
   - color 설정하는법
   - login 창 만드는법 및 설정
   - 날짜 설정과 time 설정
-  - placeholder value  
+  - checkbox 생성과 
