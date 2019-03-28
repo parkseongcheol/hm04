@@ -9,3 +9,8 @@ html5 class
 - wk03 upload
   - flame 만드는법
   - 미디어와 사운드 넣는법
+- wk04 upload
+  - color 설정하는법
+  - login 창 만드는법 및 설정
+  - 날짜 설정과 time 설정
+  - placeholder 와 value의 
