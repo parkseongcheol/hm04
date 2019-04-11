@@ -20,3 +20,9 @@ html5 class
   - 배경 화면 설정
   - 부분 글자 크기 바꾸기
   - 테두리 점선 
+- wk06 upload
+  - 변환,전환 활용
+  - block/inline 차이
+  - 애니메이션 활용
+  - table 설정방법
+ 
