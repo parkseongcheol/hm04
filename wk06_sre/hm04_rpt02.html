@@ -6,11 +6,16 @@
 		<meta charset="utf-8">
 		<title>hm04 : CSS3 advanced</title>
 		<style>
-			div {
+        		div {
 				display: inline-block;
 				position: absolute; /* 절대 배치 */
-				
+                border: 50px solid transparent;
+                width: 300px;
+                height: 300px;
+				border-image: url(media/trees.gif) 30 round;
 			}
+                
+            
 			div > p {
 				display: inline-block; /* div의 자식 p */
 				position: absolute; /* 절대 배치 */
@@ -18,26 +23,25 @@
 				width: 15px;
 				background: lightgray;
 			}
+            div > p1 {
+				display: inline-block; /* div의 자식 p */
+				position: absolute; /* 절대 배치 */
+				height: 20px;
+				width: 15px;
+				background: ;
+			}
             
-        #fixed {
+   
+
+        #fix {
             position: fixed;
-            top: 70px;
-            left: 10px;
+            bottom: 20px;
+            left: 150px;
             width: 100px;
-            padding: 5px;
-            background: red;
-            color: white;
-        }
-            #fix {
-            position: fixed;
-            top: 400px;
-            left: 85px;
-            width: 100px;
-            padding: 5px;
+            padding: 20px;
             background: yellow;
             color: black;
         }
-      
             p {
 				transition: font-size 5s;
 			}
@@ -52,6 +56,17 @@
 				font-size: 500%;
 			}
             
+            @keyframes bomb {
+from { font-size : 400%;}
+to { font-size : 100%;}
+}
+h3 {
+animation-name : bomb;
+animation-duration : 3s;
+animation-iteration-count : infinite;
+            }
+        
+            
 		</style>
 		<script></script>
 	</head>
@@ -60,16 +75,13 @@
 		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
 		<h3>Merry Christmas!</h3>
 		<hr>
-	    <div id="fixed">
-        예수님이 탄생하셨습니다.
-    </div>
         
 		<div>
-            
             
 			<img src="media/christmastree.png"
 			width="300px" height="300px" alt="크리스마스 트리">
             
+        <audio src="media/Sia%20-%20Snowman.mp3"controls autoplay loop></audio>
       
             
 			<p style="left:130px; top:20px">
@@ -104,11 +116,10 @@
             <p style="left:100px; top:200px">
                 S
 			</p>
-              <div id="fix">
-       <span>  hm04 박성철.   </span>
+            <p id="fix"> hm04 박성철 </p>
+       
     </div>
-            
-		</div>
+        
 
 	</body>
 
