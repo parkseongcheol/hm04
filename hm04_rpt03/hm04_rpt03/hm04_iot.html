@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head><meta charset="utf-8">
+		<title>HM04 IoT</title>
+	</head>
+	<body>
+		<h3>홈 제어 시스템 - 온도 조절</h3>
+		<hr>
+		<form>
+            
+			지속시간 (0.0~10.0시간) :
+			<input type="number" min="0.0" max="10.0"
+			step="0.5">
+			<br>
+			<br>
+			온도 설정 :10&deg;
+			<input type="range" min="10" max="30"
+			list="temperatures">
+			30&deg;
+            <br><br>
+            
+            
+            
+                           지속시간 (0.0~20.0시간) :
+			<input type="number" min="0.0" max="20.0"
+			step="1">
+			<br>
+			<br>
+			온도 설정 :0&degC
+			<input type="range" min="00" max="50"
+			list="temperature">
+			50&degC
+            
+            
+            
+            <datalist id="temperatures">
+         <option value="12" label="Low"><option value="20" label="Medium"><option value="28" label="High">
+            <br><br><br>
+                
+                
+             <datalist id="temperature">
+         <option value="15" label="Low"><option value="25" label="Medium"><option value="40" label="High">
+			</datalist>   
+                <br>
+                <br>
+                 </form>
+                
+            <br>
+                <br>
+                <br>
+  </body>
+</html>
