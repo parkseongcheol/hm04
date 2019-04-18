@@ -8,4 +8,4 @@
 6. 베스트 영화에 datalist 사용
 7. 동호회 모집에 fieldset tag 사용
 8. 온도관리 세부내용 추가
-9. x-mas 초대장 detalis 
+9. 초대장 detalis 
