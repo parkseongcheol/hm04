@@ -25,7 +25,7 @@ html5 class
   - block/inline 차이
   - 애니메이션 활용
   - table 설정방법
- - wk09 upload
+- wk09 upload
   - 자바스크립 기초 
   - 자바스크립 코드 웹페이지 삽입
   - 자바스크립 데이터타입과 변수 이해
