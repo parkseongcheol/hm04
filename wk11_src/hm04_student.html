@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<hyml>
+  <head>
+    <title>리터럴 표기 방식 객체 만들기</title>
+    <script>
+      var student = {
+        id: "hm_04",
+        name: "박성철",
+        grade: 3.9,
+        age: 24,
+
+        c: function() {
+          return this.grade;
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <h3>리터럴 표기법으로 student 만들기</h3>
+    <hr />
+    <script>
+      document.write("id : " + "  " + student.id + "<br>");
+      document.write("name : " + " " + student.name + "<br>");
+      document.write("grade : " + " " + student.grade + "<br>");
+      student.c();
+      document.write("현재 나이 : " + " " + student.age + "<br>");
+    </script>
+  </body>
+</hyml>
