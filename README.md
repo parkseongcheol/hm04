@@ -30,8 +30,10 @@ html5 class
   - 자바스크립 코드 웹페이지 삽입
   - 자바스크립 데이터타입과 변수 이해
   - 자바스크립 연사자 종류 
-- wk10 upload
-  - 비트 연산 이해
-  - if,switch 이해
-  - 8비트 2진수 변환
-  - break,continue 이해
+- wk11 upload
+  - 객체의 개념 이해
+  - Date 객체 활용
+  - String 객체 활용
+  - Array 객체를 이용하여 배열 활용
+  - Math 객체 활용
+  
