@@ -36,4 +36,10 @@ html5 class
   - String 객체 활용
   - Array 객체를 이용하여 배열 활용
   - Math 객체 활용
+ - wk12 upload
+  - DOM 트리와 HTML 페이지의 관계를 이해
+  - DOM 객체의 구조 이해
+  - 동적으로 DOM 객체를 웹 페이지에 추가,삭제
+  - window 객체의 타이머 기능을 활용
+  - history 객체 
   
