@@ -42,4 +42,10 @@ html5 class
   - 동적으로 DOM 객체를 웹 페이지에 추가,삭제
   - window 객체의 타이머 기능을 활용
   - history 객체 
+- wk13 upload
+  - 이벤트의 이해
+  - onload 활용
+  - 마우스 관련 이벤트 이해
+  - 리스너 활용
+ 
   
