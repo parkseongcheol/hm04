@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>베스트 영화3</title>
+    <script>
+      function load() {
+        var select = document.getElementById("site");
+        window.location = select.options[select.selectedIndex].value;
+      }
+      function openURL() {
+        var select = document.getElementById("site");
+        url = select.options[select.selectedIndex].value;
+
+        window.open(url, "myWin", "left=300,top=300,width=800,heigth=800");
+      }
+    </script>
+  </head>
+
+  <body>
+    <h3>베스트영화3</h3>
+    <hr />
+    <br /><br /><br />
+    영화 선택:
+    <select id="site" onchange="openURL();">
+      <option value="https://movie.naver.com/movie/bi/mi/basic.nhn?code=39440"
+        >if only</option
+      >
+      <option value="https://movie.naver.com/movie/bi/mi/basic.nhn?code=161242"
+        >범죄도시</option
+      >
+      <option value="https://movie.naver.com/movie/bi/mi/basic.nhn?code=158178"
+        >독전</option
+      >
+    </select>
+
+    <datalist id="movie">
+      <option
+        onclick="load()"
+        value="https://movie.naver.com/movie/bi/mi/basic.nhn?code=39440"
+        selected
+      >
+        if only
+      </option>
+      <option value="범죄도시"> </option>
+      <option value="독전"> </option>
+    </datalist>
+
+    <br />
+    <ul>
+      <li>
+        <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=39440">
+          if only</a
+        >
+      </li>
+    </ul>
+
+    <img
+      src="https://post-phinf.pstatic.net/20150413_191/jaynshop_acc_1428895858014FH3EF_JPEG/mug_obj_201504131230586222.jpg?type=w1080"
+      width="300"
+      height="300"
+    />
+
+    <ul>
+      <li>
+        <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=161242">
+          범죄도시</a
+        >
+      </li>
+    </ul>
+
+    <img
+      src="https://ssl.pstatic.net/mimgnews/image/109/2017/08/10/0003595219_001_20170810122101633.jpg?type=w540"
+      width="300"
+      height="300"
+    />
+
+    <ul>
+      <li>
+        <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=158178">
+          독전</a
+        >
+      </li>
+    </ul>
+
+    <img
+      src="https://mimgnews.pstatic.net/image/081/2018/04/22/0002909636_001_20180422144606225.jpg?type=w540"
+      width="300"
+      height="300"
+    />
+  </body>
+</html>
